@@ -1,12 +1,4 @@
-# Start package for [Bulma](http://bulma.io)
 
-Tiny npm package that includes the `npm` **dependencies** you need to **build your own website** with Bulma.
-
-<a href="http://bulma.io"><img src="https://raw.githubusercontent.com/jgthms/bulma-start/master/bulma-start.png" alt="Bulma: a Flexbox CSS framework" style="max-width:100%;" width="600" height="315"></a>
-
-## Install
-
-```sh
 npm install bulma-start
 ```
 _or_
@@ -97,10 +89,3 @@ available via `npm run-script`:
   js-watch
     npm run js-build -- --watch
 ```
-
-If you want to learn more, follow these links: [Bulma homepage](http://bulma.io) and [Documentation](http://bulma.io/documentation/overview/start/).
-
-
-## Copyright and license
-
-Code copyright 2017 Jeremy Thomas. Code released under [the MIT license](https://github.com/jgthms/bulma-start/blob/master/LICENSE).
