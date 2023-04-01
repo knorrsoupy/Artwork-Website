@@ -27,3 +27,55 @@ $primary-invert: $pink-invert;
 */
 
 @import "../node_modules/bulma/bulma";
+html{
+    background-color: rgb(0, 0, 0);
+}
+.hero-body{
+background-color: black;
+font-family:'poppins';
+}
+.footer{
+  background: black;
+      
+}
+.card-image{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+//This is used to control the animation speed and its duration
+.card-image{
+    transition: transform .5s;
+    width:50px;
+    height:50px;
+    margin:0 auto;
+    }
+
+    //This property is used to change the properties of the image on hover
+.card-image:hover{
+    transform: scale(1.08);
+    }
+
+.navbar-item{
+    transition: transform .5s;
+    margin: 5px;
+    font-family:'poppins';
+}
+.navbar-item:hover{
+    transform: scale(1.05);
+    color: aqua;
+    }
+
+    
+    /* Animation */
+.typing-effect{
+    //display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    //margin: 0 auto;
+      animation: typing 2s steps(40) 2s forwards;
+
+    }
+ @keyframes typing{
+      from{width: 0;}
+      to{width: 100%;}
+    }
