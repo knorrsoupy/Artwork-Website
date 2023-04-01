@@ -1,12 +1,3 @@
-
-npm install bulma-start
-```
-_or_
-
-```sh
-yarn add bulma-start
-```
-
 ## What's included
 
 The `npm` dependencies included in `package.json` are:
