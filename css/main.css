@@ -10326,16 +10326,27 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 html {
+  scroll-behavior: smooth;
   background-color: rgb(0, 0, 0);
+  background-color: #000000;
 }
 
 .hero-body {
   background-color: black;
   font-family: "poppins";
+  background-color: #000000;
 }
 
 .footer {
-  background: black;
+  background: rgb(0, 0, 0);
+  font-family: "poppins";
+}
+
+.footer-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .card-image {
@@ -10345,8 +10356,8 @@ html {
 
 .card-image {
   transition: transform 0.5s;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin: 0 auto;
 }
 
@@ -10356,17 +10367,18 @@ html {
 
 .navbar-item {
   transition: transform 0.5s;
-  margin: 5px;
   font-family: "poppins";
+  color: #ffffff;
 }
 
 .navbar-item:hover {
   transform: scale(1.05);
-  color: aqua;
+  color: #00d8d8;
 }
 
 /* Animation */
 .typing-effect {
+  display: inline-block;
   overflow: hidden;
   white-space: nowrap;
   animation: typing 2s steps(40) 2s forwards;
@@ -10379,4 +10391,31 @@ html {
   to {
     width: 100%;
   }
+}
+.visit {
+  border-radius: 30px;
+  display: inline-block;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.visit:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.made {
+  color: #ffffff;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.made:hover {
+  color: #00d8d8;
+  transition: color 0.5s ease-in-out;
 }
