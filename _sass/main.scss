@@ -51,7 +51,7 @@ html{
 }
 .card-image{
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 //This is used to control the animation speed and its duration
 .card-image{
@@ -65,13 +65,13 @@ html{
 .card-image:hover{
     transform: scale(1.08);
     }
-.navbar-item{
+.navbar-item.menu{
     transition: transform .5s;
     //margin: 5px;
     font-family:'poppins';
-    color: #ffffff
+    color: #ffffff;
 }
-.navbar-item:hover{
+.navbar-item.menu:hover{
     transform: scale(1.05);
     color: #00d8d8;
     }
@@ -117,4 +117,3 @@ html{
 color:#00d8d8;
 transition: color 0.5s ease-in-out;
 }
-  

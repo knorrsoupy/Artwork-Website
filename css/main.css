@@ -10351,7 +10351,7 @@ html {
 
 .card-image {
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .card-image {
@@ -10365,13 +10365,13 @@ html {
   transform: scale(1.08);
 }
 
-.navbar-item {
+.navbar-item.menu {
   transition: transform 0.5s;
   font-family: "poppins";
   color: #ffffff;
 }
 
-.navbar-item:hover {
+.navbar-item.menu:hover {
   transform: scale(1.05);
   color: #00d8d8;
 }
