@@ -42,11 +42,11 @@ justify-content:center ;
     max-width: 320px;
     max-height: 320px;
     border-radius: 20px;
+    justify-content:center ;
   }
 
 .column{
-    margin:50px;
-   margin-bottom: 20px;
+    margin:20px;
     padding: 0.50rem;
 }
 
