@@ -25,24 +25,31 @@ html {
 .about {
   font-family: "poppins";
 }
-.main {
-  display: inline-block;
-  padding: 100px 100px 100px 100px;
-}
-.image {
-  width: 400px;
-  height: 400px;
-  align-content: center;
-}
-.profile {
-  border-radius: 20px;
+.main.columns {
+  display:inline-block;
+  padding: 10px 10px;
+justify-content:center ;
 }
 
-.image.column {
+.image{
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin: 100px;
 }
+.image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 320px;
+    max-height: 320px;
+    border-radius: 20px;
+  }
+
+.column{
+    margin:50px;
+   margin-bottom: 20px;
+    padding: 0.50rem;
+}
+
 .back {
   border-radius: 30px;
   display: inline-block;
@@ -66,6 +73,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 .subtitle {
   text-align: center;
