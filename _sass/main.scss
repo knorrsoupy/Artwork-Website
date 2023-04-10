@@ -49,21 +49,18 @@ html{
     align-items: center;
     text-align: center;
 }
-.card-image{
-    border: 1px solid black;
-    border-radius: 20px;
-}
 //This is used to control the animation speed and its duration
 .card-image{
     transition: transform .5s;
-    width:60px;
-    height:60px;
+    //width:60px;
+    //height:60px;
+    border-radius: 20px;
     margin:0 auto;
     }
 
     //This property is used to change the properties of the image on hover
 .card-image:hover{
-    transform: scale(1.08);
+    transform: scale(1.05);
     }
 .navbar-item.menu{
     transition: transform .5s;
@@ -117,3 +114,13 @@ html{
 color:#00d8d8;
 transition: color 0.5s ease-in-out;
 }
+//This property is used to change the properties of the video on hover
+video{
+    border-radius: 20px; 
+    transition: transform .5s;
+    border-radius: 20px;
+    margin:0 auto;
+}
+video:hover{
+    transform: scale(1.05);
+    }

@@ -10350,19 +10350,13 @@ html {
 }
 
 .card-image {
-  border: 1px solid black;
-  border-radius: 20px;
-}
-
-.card-image {
   transition: transform 0.5s;
-  width: 60px;
-  height: 60px;
+  border-radius: 20px;
   margin: 0 auto;
 }
 
 .card-image:hover {
-  transform: scale(1.08);
+  transform: scale(1.05);
 }
 
 .navbar-item.menu {
@@ -10418,4 +10412,15 @@ html {
 .made:hover {
   color: #00d8d8;
   transition: color 0.5s ease-in-out;
+}
+
+video {
+  border-radius: 20px;
+  transition: transform 0.5s;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+video:hover {
+  transform: scale(1.05);
 }
