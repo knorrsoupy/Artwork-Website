@@ -35,6 +35,8 @@
     "start": "npm-run-all --parallel css-watch js-watch"
   },
   "dependencies": {
-    "bulma-social": "^2.1.0"
+    "bulma-carousel": "^4.0.24",
+    "bulma-social": "^2.1.0",
+    "flickity": "^3.0.0"
   }
 }
